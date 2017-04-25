@@ -1,6 +1,6 @@
 # npmtest-gulp-replace
 
-#### test coverage for  [gulp-replace (v0.5.4)](https://github.com/lazd/gulp-replace)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-replace)
+#### basic test coverage for  [gulp-replace (v0.5.4)](https://github.com/lazd/gulp-replace)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-replace.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-replace) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-replace.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-replace)
 
 #### A string replace plugin for gulp
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-replace/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-replace/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-replace/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-replace/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-replace/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-replace/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-replace/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-replace/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-replace/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-replace/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-replace/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-replace/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.5.4"
+    "version": "0.5.4",
+    "bin": {}
 }
 ```
 
